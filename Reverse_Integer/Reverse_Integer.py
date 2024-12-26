@@ -1,5 +1,3 @@
-import numpy as np
-
 class Solution(object):
     def reverse(self, x):
         """
@@ -27,9 +25,3 @@ class Solution(object):
             return reversed_number
         else:
             return 0
-
-# Test cases
-s = Solution()
-print(s.reverse(1534236469))  # Should return 0
-print(s.reverse(-123))        # Should return -321
-print(s.reverse(123))         # Should return 321
