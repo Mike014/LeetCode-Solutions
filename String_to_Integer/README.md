@@ -16,12 +16,6 @@ The problem, available on [LeetCode](https://leetcode.com/problems/string-to-int
    ```python
    while i < len(s) and (s[i].isdigit() or (i == 0 and s[i] in "+-")):
    ```
-	•	Ensures the loop runs as long as there are valid characters in the string.
-	•	Base Conditions:
-	•	i < len(s): Prevents out-of-bounds errors.
-	•	i == 0: Ensures the first character is checked for a valid sign (+ or -).
-	•	Checks whether the current character is numeric or the first character is a valid sign.
-
 3. **Extract the Numeric Substring**:
    After the loop, the numeric portion of the string is extracted:
    ```python
