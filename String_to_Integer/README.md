@@ -22,7 +22,7 @@ The problem, available on [LeetCode](https://leetcode.com/problems/string-to-int
 	•	i == 0: Ensures the first character is checked for a valid sign (+ or -).
 	•	Checks whether the current character is numeric or the first character is a valid sign.
 
-3.	**Extract the Numeric Substring**:
+3. **Extract the Numeric Substring**:
    After the loop, the numeric portion of the string is extracted:
    ```python
    numeric_part = s[:i]
@@ -30,7 +30,7 @@ The problem, available on [LeetCode](https://leetcode.com/problems/string-to-int
    If numeric_part is empty or only contains a sign (+ or -), the function returns 0.
 
 
-5.	**Ensure the Result Fits in a 32-bit Range**:
+4. **Ensure the Result Fits in a 32-bit Range**:
     The function ensures the result falls within the range of a 32-bit signed integer:
     ```python
     if -(2**31) <= result < 2**31:
