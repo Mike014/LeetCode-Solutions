@@ -43,7 +43,7 @@ Start the cycle
 
 x = 1257
 x mod 10 = 7
-rev = 0 * 10 + 7
+rev = 0 * 10 + 7 = 7
 x = 125
 
 2#
