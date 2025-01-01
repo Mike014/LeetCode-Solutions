@@ -29,12 +29,13 @@ class Solution(object):
 # n = number of elements in the list
 
 
-# Other way to solve the problemfrom collections import Counter
-        # c = Counter(nums)
+# Other way to solve the problem
+# from collections import Counter
+# c = Counter(nums)
 
-        # res = [item[0] for item in c.most_common(k)]
+# res = [item[0] for item in c.most_common(k)]
 
-        # return res
+# return res
 
 # Counter(nums) stores all the element with their frequency
 
